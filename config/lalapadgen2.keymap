@@ -79,8 +79,18 @@
         };
 
         Emoji {
-            bindings = <&none>;
+            bindings = <&kp LG(PERIOD)>;
             key-positions = <3 1>;
+        };
+
+        EN {
+            bindings = <&kp LANG2>;
+            key-positions = <12 13>;
+        };
+
+        JP {
+            bindings = <&kp LANG1>;
+            key-positions = <22 23>;
         };
     };
 
